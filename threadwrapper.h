@@ -25,7 +25,7 @@
     Obviously we can also define a priority for the thread, changing the second row in the code with the following one
         threadWrapperObject = new ThreadWrapper3<Object,Arg1,Arg2,Arg3>(arg1,arg2,arg3,QThread::HighestPriority);
     In order to get the pointer to the object of QObject type (useful for the signal-slot connections) we must type
-    threadWrapperObject->t.
+    threadWrapperObject->t().
 
 */
 
